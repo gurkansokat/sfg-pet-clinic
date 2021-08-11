@@ -31,4 +31,5 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     public Vet findById(Long id) {
         return super.findById(id);
     }
+
 }
